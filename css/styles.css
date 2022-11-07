@@ -1,0 +1,26 @@
+.header{
+    background-color: red;
+}
+
+.div_input{
+    background-color: lime;
+    display: grid;
+    width: 25%;
+    height: 15%;
+    margin-top: 1rem;
+}
+.title{
+    text-align: center;
+}
+
+.input{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.access_btn{
+    padding: 1rem;
+    margin-top: 1rem;
+}
