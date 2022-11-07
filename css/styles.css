@@ -1,16 +1,28 @@
+body{
+    background-color: #DB241B;
+    font-family: 'Roboto', open-sans;
+}
+
 .header{
-    background-color: red;
+    background-color: #DB241B;
 }
 
 .div_input{
-    background-color: lime;
     display: grid;
     width: 25%;
-    height: 15%;
-    margin-top: 1rem;
+    height: 50%;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #c52018, #ea271d);
+    box-shadow:  35px 35px 70px #6e120e,
+                 -35px -35px 70px #ff3629;
 }
+
 .title{
     text-align: center;
+    font-size: 400;
 }
 
 .input{
@@ -23,4 +35,6 @@
 .access_btn{
     padding: 1rem;
     margin-top: 1rem;
+    border-radius: 16px;
+    border: none;
 }
