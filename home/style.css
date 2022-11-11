@@ -1,0 +1,63 @@
+body{
+    background-color: red;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 400;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+.subtitulo{
+    text-align: center;
+    font-size:  400;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#foto1{
+   
+    margin-right: 100px;
+    margin-top: 100px
+}
+#foto2{
+    margin-right: 100px;
+    margin-top: 100px
+}
+
+#foto3{
+    margin-right: 100px;
+    margin-top: 100px
+}
+
+#foto4{
+    margin-right: 100px;
+    margin-top: 100px
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+
+p.especial{
+    border-color: white;
+    position: absolute;
+    border-style: solid;
+    padding: 15px 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.texto4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+
