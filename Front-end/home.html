@@ -4,56 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home/style.css">
+    <link rel="stylesheet" href="home/style_home.css">
     <title>Pedidos Ya</title>
 </head>
+
 <body>
-    <a target="_blank" href="" > <img src="img/logopedidosya.jpg" alt="" height="100" width="100">  </a>
-    <h1 class="titulo"> PedidosYA  </h1>
-    <h2 class="subtitulo"> ¡Delivery de Comidas y Bebidas! </h2> 
+    <section class="section_top">
+        <a target="_blank" href="" > <img src="img/logopedidosya.jpg" alt="" height="100" width="100">  </a>
+        <h1 class="titulo"> PedidosYA  </h1>
+        <h2 class="subtitulo"> ¡Delivery de Comidas y Bebidas! </h2> 
+    </section>
+    
+    <section class="menu">
+        <div class="contenedor">
+            <img class="img" src="img/bebidas.jpg" alt="gaseosas">
+            <p class="texto"> ¡Te ofrecemos diferentes marcas
+            a un precio increible!<br> 
+            Coca-cola 1L a tan solo 200 $ <br>
+            Pepsi 1L a 200$ <br>
+            Fanta 1L a 200$ <br>
+            </p>
+            <input class="btn" type="button" value="Comprar menu" onclick="comprar()">   
+        </div>
 
-    <img id="foto1" src="img/bebidas.jpg" alt="" height="250" width="250">
-    <p class="texto1"> ¡Te ofrecemos diferentes marcas <br>
-        a un precio increible!<br> 
-        Coca-cola 1L a tan solo 200 $ <br>
-        Pepsi 1L a 200$ <br>
-        Fanta 1L a 200$ <br>
-        <br>
-        <input type="submit" value="comprar menu" onclick="validate()">
-     </p>
-
-    <img id="foto2" src="img/empanadas.jpg" height="250" width="250">
-    <p class="texto2"> Llevando 12 empanadas + 2 a eleccion <br>
-        a tan solo 1200 $</p>
-        <input type="submit" value="comprar menu" onclick="validate()"> 
-    </p>
-
-    <img id="foto3" src="img/hamburguesa.png" height="250" width="250">
-    <p class="texto3">NO TE PODES PERDER ESTOS COMBOS <br>
-        Chesse (Carne y cheddar) 780$ <br>
-        Best (Carne, cheddar y bacon) 880$ <br>
-        Clasic (Carne, lechuga, tomate y cebolla morada) 780$ <br>
-        Clasic full (Carne, queso tibo, jamon, lechuga, tomate y huevo frito) <br>
-        <br>
-        <p class="especial">TODOS LOS COMBOS INCLUYEN PAPAS FRITAS</p> 
-        <br>
-        <br> 
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="comprar menu" onclick="validate()"> </p>
-        </p>
+        <div class="contenedor">
+            <img class="img" src="img/empanadas.jpg" alt="empanadas">
+            <p class="texto"> Llevando 12 empanadas + 2 a eleccion
+            a tan solo 1200 $</p>
+            <input class="btn" type="button" value="Comprar menu" onclick="comprar()"> 
+            </p>
+        </div>
         
-    <img id="foto4" src="img/pizza.jpg" height="250" width="250">
-    <p class="texto4"> ¡Las mejores pizzas con mas de 500gr de muzarella! <br>
-        Ingredientes frescos y de calidad. Hace tu pedido facil y rapido. <br>
-        Pizza Napolitana 1000$ <br>
-        Pizza con fugazzeta 1500$ <br>
-        Piza Calabresa con Coca-cola de 1.5 L 1200$
-       <br>
-       <br>
-       <input type="submit" value="comprar menu" onclick="validate()"> </p>
-         </p>
-
+        <div class="contenedor">
+            <img class="img" src="img/hamburguesa.png" alt="hamburguesa">
+            <p class="texto">NO TE PODES PERDER ESTOS COMBOS <br>
+            Chesse (Carne y cheddar) 780$ <br>
+            Best (Carne, cheddar y bacon) 880$ <br>
+            Clasic (Carne, lechuga, tomate y cebolla morada) 780$ <br>
+            Clasic full (Carne, queso tibo, jamon, lechuga, tomate y huevo frito) <br>
+            </p>
+            
+            <input class="btn" type="button" value="Comprar menu" onclick="comprar()">
+        </div>
+        
+        <div class="contenedor">
+            <img class="img" src="img/pizza.jpg" alt="pizza">
+            <p class="texto">
+                ¡Las mejores pizzas con mas de 500gr de muzarella! <br>
+            Ingredientes frescos y de calidad. Hace tu pedido facil y rapido. <br>
+            Pizza Napolitana 1000$ <br>
+            Pizza con fugazzeta 1500$ <br>
+            Pizza Calabresa con Coca-cola de 1.5 L 1200$
+            </p>
+            <input class="btn" type="button" value="Comprar menu" onclick="comprar()"> 
+        </div>
+        
+    </section>
+    <script src="./home/home.js"></script>
 </body>
 </html>

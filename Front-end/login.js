@@ -13,5 +13,5 @@ let button = document.getElemntById("button");
 button.addEventListener("click", (e)=> {
       e.preventDeFault();
     validate();
-}) 
+})
   
