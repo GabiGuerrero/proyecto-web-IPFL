@@ -111,5 +111,14 @@ select * from pedido, factura where factura.tipo_pago = 'efectivo';
 
 --5/E
 
+create table pagos (
+	id int primary key,
+	monto int,
+	tipo_pago_opcional
+);
 
-
+insert into pagos VALUES (16,50, 'efectivo');
+insert into pagos VALUES (17,1000, 'efectivo');
+insert into pagos VALUES (18, 1500, 'debito');
+insert into pagos VALUES (19,700,'debito');
+insert into pagos VALUES (20,1200, 'efectivo');
