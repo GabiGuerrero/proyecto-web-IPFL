@@ -11,7 +11,12 @@ insert into usuario VALUES (1,'Matias',2224,'Calchaqui');
 insert into usuario VALUES (2,'Damian',2225,'Sarratea');
 insert into usuario VALUES (3,'Gabriel',2226,'Acha');
 insert into usuario VALUES (4,'Juan',2227,'Sarratea');
-insert into usuario VALUES (5,'Pablo',2228,'laprida')
+insert into usuario VALUES (5,'Pablo',2228,'laprida');
+insert into usuario VALUES (6,'Ana',2229,'Alem');
+insert into usuario VALUES (7,'Elu',2230,'yapeyu');
+insert into usuario VALUES (8,'Julieta',2231,'ayacucho');
+insert into usuario VALUES (9,'Roberto',2232,'Cabral');
+insert into usuario VALUES (10,'Mirtha',2233,'Calchaqui');
 
 create table pruducto (
 	id_pruducto int primary key,
